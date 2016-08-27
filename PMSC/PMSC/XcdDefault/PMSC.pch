@@ -1,0 +1,34 @@
+//
+//  PMSC.pch
+//  PMSC
+//
+//  Created by 李锐 on 16/8/22.
+//  Copyright © 2016年 李锐. All rights reserved.
+//
+
+#ifndef PMSC_pch
+#define PMSC_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define Screen_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define Screen_WIDTH [UIScreen mainScreen].bounds.size.width
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width / 720.
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height / 1280.
+#define kAppColor [UIColor colorWithRGB:0xfe5330]  //app的颜色
+#define kNavTitleColor [UIColor colorWithRGB:0xffffff] //导航栏title的yanse
+#define kHexColor(hex) [UIColor colorWithRGB:hex]  //设置颜色
+
+#import <UITableView+SDAutoTableViewCellHeight.h>
+#import <UIView+SDAutoLayout.h>
+#import "AppDelegate.h"
+#import <UIImageView+WebCache.h>
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import <POP.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AssetsLibrary/ALAssetRepresentation.h>
+#import "UIColor+YYAdd.h"
+#import "XLTabBarController.h"
+
+#endif /* PMSC_pch */
